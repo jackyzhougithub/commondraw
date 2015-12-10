@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="brush_edit_dialog_library">Bibliotek</string>
+	<string name="brush_edit_dialog_back">Tilbage</string>
+	<string name="brush_edit_dialog_pencil">Blyant</string>
+	<string name="brush_edit_dialog_rollerpen">Kuglepen</string>
+	<string name="brush_edit_dialog_pen">Pen</string>
+	<string name="brush_edit_dialog_marker">Markør</string>
+	<string name="brush_edit_dialog_brush">Pensel</string>
+	<string name="brush_edit_dialog_airbrush">Airbrush</string>
+	<string name="brush_edit_dialog_save">Allerede gemt.</string>
+	<string name="editor_pen_dialog_title" description="editor_pen_dialog_title">Penselfarve og tykkelse</string>
+	<string name="newto_editor_func_popup_d_brush_stroke">Strejf</string>
+   	<string name="newto_editor_func_popup_d_brush_alpha">Uigennemsigtighed</string>
+</resources>

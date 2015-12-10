@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Common-Draw</string>
+    <string name="brush_edit_dialog_library">Library</string>
+    <string name="brush_edit_dialog_back">Back</string>
+    <string name="brush_edit_dialog_pencil">Pencil</string>
+    <string name="brush_edit_dialog_rollerpen">Roller pen</string>
+    <string name="brush_edit_dialog_pen">Pen</string>
+    <string name="brush_edit_dialog_marker">Marker</string>
+    <string name="brush_edit_dialog_brush">Brush</string>
+    <string name="brush_edit_dialog_airbrush">Air brush</string>
+    <string name="brush_edit_dialog_stroke">%dpx</string>
+    <string name="brush_edit_dialog_save">Already exists</string>
+    <string name="brush_edit_dialog_save_successful">Saved successful</string>
+    <string name="newto_editor_func_popup_d_brush_stroke">Stroke</string>
+    <string name="newto_editor_func_popup_d_brush_alpha">Opacity</string>
+    <string name="editor_pen_dialog_title" description="editor_pen_dialog_title">Brush color &#038; thickness</string>
+    <!-- add by jason -->
+    <string name="save_to">Save to</string>
+    <string name="save_gallery">Gallery</string>
+    <string name="save_omlet">Omlet emoticons</string>
+    <string name="save_gallery_success">Picture has save to Gallery Successfully.</string>
+    <string name="save_omlet_success">Picture has save to Omlet emoticons Successfully.</string>
+    <!-- end -->
+	<!-- GraffitiBoardActivity -->
+    <string name="graffiti_board">Graffiti Board</string>
+    <string name="start_your_drawing">Start your drawing</string>
+
+</resources>

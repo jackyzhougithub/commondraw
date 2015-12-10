@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/gb_function_layout_height"
+        android:background="@color/gb_function_bar_bg" >
+		<include layout="@layout/gb_selection_mode"/>
+        <include layout="@layout/gb_draw_mode" />
+    </FrameLayout>
+
+    <com.asus.draw.doodleview.DoodleView
+        android:id="@+id/doodleView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="100"
+        android:background="@android:color/white" >
+    </com.asus.draw.doodleview.DoodleView>
+
+</LinearLayout>

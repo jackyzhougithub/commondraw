@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="color_picker_width">303</integer>
+    <integer name="color_picker_height">70</integer>
+    
+    <!-- 判断当前屏幕尺寸 -->
+	<integer name="screen_size">360</integer>
+</resources>

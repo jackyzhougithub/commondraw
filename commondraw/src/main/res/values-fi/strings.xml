@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="brush_edit_dialog_library">Kirjasto</string>
+	<string name="brush_edit_dialog_back">Takaisin</string>
+	<string name="brush_edit_dialog_pencil">Lyijykynä</string>
+	<string name="brush_edit_dialog_rollerpen">Kuulakärkikynä</string>
+	<string name="brush_edit_dialog_pen">Kynä</string>
+	<string name="brush_edit_dialog_marker">Tussi</string>
+	<string name="brush_edit_dialog_brush">Sivellin</string>
+	<string name="brush_edit_dialog_airbrush">Väriruisku</string>
+	<string name="brush_edit_dialog_save">Jo tallennettu.</string>
+	<string name="brush_edit_dialog_full">Siveltimien enimmäismääräksi tallennettu 12</string>
+	<string name="editor_pen_dialog_title" description="editor_pen_dialog_title">Siveltimen väri ja paksuus</string>
+	<string name="newto_editor_func_popup_d_brush_stroke">Viiva</string>
+   	<string name="newto_editor_func_popup_d_brush_alpha">Peittävyys</string>
+</resources>

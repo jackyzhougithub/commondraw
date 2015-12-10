@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white" >
+      <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@color/gb_function_bar_bg">
+        <ImageButton
+            android:id="@+id/free_crop" 
+            android:clickable="true"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|left"
+            android:background="@drawable/crop_selector"
+            android:src="@drawable/freecrop_n"/>
+        <ImageButton
+            android:id="@+id/auto_crop"
+             android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/crop_selector"
+            android:clickable="true"
+            android:gravity="center_vertical|left"
+            android:src="@drawable/autocrop_n" />
+
+		<RelativeLayout
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="4" >
+	        <ImageButton 
+	            android:id="@+id/edit_cancel"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_toLeftOf="@+id/edit_done"
+	            android:background="@null"
+	            android:visibility="gone"
+	            android:src="@drawable/ic_mode_edit"/>
+	        <ImageButton 
+	            android:id="@+id/edit_done"
+	            android:layout_alignParentRight="true"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:layout_marginRight="20dp"
+	            android:background="@null"
+	            android:src="@drawable/done_n"/>
+		</RelativeLayout>
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">        
+		<com.asus.draw.cropimageview.CropImageView
+	         android:id="@+id/crop_content"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_gravity="center" />
+    </LinearLayout>
+</LinearLayout>

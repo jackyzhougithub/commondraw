@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/selectionActionBarLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="@dimen/gb_function_layout_marginleft"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <View
+                android:id="@+id/freeCropMaskView"
+                android:layout_width="@dimen/gb_function_view_width"
+                android:layout_height="@dimen/gb_function_view_width"
+                android:alpha="0.001"
+                android:background="@color/gb_checked_color" />
+
+            <View
+                android:id="@+id/rectCropMaskView"
+                android:layout_width="@dimen/gb_function_view_width"
+                android:layout_height="@dimen/gb_function_view_width"
+                android:layout_marginLeft="@dimen/gb_function_view_marginleft"
+                android:alpha="0.001"
+                android:background="@color/gb_checked_color" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/free_crop"
+                android:layout_width="@dimen/gb_function_view_width"
+                android:layout_height="@dimen/gb_function_view_width"
+                android:background="@drawable/crop_selector"
+                android:clickable="true"
+                android:src="@drawable/freecrop_n" />
+
+            <ImageButton
+                android:id="@+id/rect_crop"
+                android:layout_width="@dimen/gb_function_view_width"
+                android:layout_height="@dimen/gb_function_view_width"
+                android:layout_marginLeft="@dimen/gb_function_view_marginleft"
+                android:background="@drawable/crop_selector"
+                android:clickable="true"
+                android:src="@drawable/autocrop_n" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="100" >
+
+        <ImageButton
+            android:id="@+id/edit_cancel"
+            android:layout_width="@dimen/gb_function_view_width"
+            android:layout_height="@dimen/gb_function_view_width"
+            android:layout_toLeftOf="@+id/edit_done"
+            android:background="@null"
+            android:src="@drawable/ic_mode_edit"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/edit_done"
+            android:layout_width="@dimen/gb_function_view_width"
+            android:layout_height="@dimen/gb_function_view_width"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/gb_function_layout_marginleft"
+            android:background="@drawable/crop_selector"
+            android:src="@drawable/done_n" />
+    </RelativeLayout>
+
+</LinearLayout>

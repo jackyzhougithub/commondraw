@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="brush_edit_dialog_library">Библиотека</string>
+	<string name="brush_edit_dialog_back">Назад</string>
+	<string name="brush_edit_dialog_pencil">Карандаш</string>
+	<string name="brush_edit_dialog_rollerpen">Шариковая ручка</string>
+	<string name="brush_edit_dialog_pen">Ручка</string>
+	<string name="brush_edit_dialog_marker">Маркер</string>
+	<string name="brush_edit_dialog_brush">Кисть</string>
+	<string name="brush_edit_dialog_airbrush">Аэрограф</string>
+	<string name="brush_edit_dialog_save">Сохранено</string>
+	<string name="brush_edit_dialog_full">Сохранено максимальное число кисти - 12</string>
+	<string name="editor_pen_dialog_title" description="editor_pen_dialog_title">Цвет и толщина кисти</string>
+	<string name="newto_editor_func_popup_d_brush_stroke">Штрих</string>
+    <string name="newto_editor_func_popup_d_brush_alpha" maxwidth="10">Непрозрачность</string>
+</resources>

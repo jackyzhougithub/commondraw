@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- GraffitiBoardActivity 160dpi-->
+    <dimen name="gb_function_layout_height">45dp</dimen>
+    <dimen name="gb_function_layout_marginleft">13dp</dimen>
+    <dimen name="gb_function_view_width">37dp</dimen>
+    <dimen name="gb_function_view_marginleft">12dp</dimen>
+    <dimen name="gb_drawtoolspicker_x_offset">0dp</dimen>
+    <dimen name="gb_drawtoolspicker_y_offset">8dp</dimen>
+    
+    <dimen name="gb_erasepopupwindow_x_offset">-49dp</dimen>
+    <dimen name="gb_erasepopupwindow_y_offset">8dp</dimen>
+    <dimen name="gb_erasepopupwindow_width">202dp</dimen>
+    <dimen name="gb_erasepopupwindow_height">47dp</dimen>
+    <dimen name="gb_erasepopupwindow_erase_radionbutton_height">37dp</dimen>
+    <dimen name="gb_erasepopupwindow_erase_radionbutton_margintop">2dp</dimen>
+    <dimen name="select_view_frame_line_width">1dp</dimen>
+    <dimen name="select_view_frame_line_padding">2dp</dimen>
+    <dimen name="select_view_frame_line_height">4dp</dimen>
+    <dimen name="select_view_frame_line_intervals">3dp</dimen>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="brush_edit_dialog_library">Bibliothèque</string>
+	<string name="brush_edit_dialog_back">Retour</string>
+	<string name="brush_edit_dialog_pencil">Crayon</string>
+	<string name="brush_edit_dialog_rollerpen">Stylo à bille</string>
+	<string name="brush_edit_dialog_pen">Stylo</string>
+	<string name="brush_edit_dialog_marker">Marqueur</string>
+	<string name="brush_edit_dialog_brush">Brosse</string>
+	<string name="brush_edit_dialog_airbrush">Brosse d\'air</string>
+	<string name="brush_edit_dialog_save">Déjà enregistré.</string>
+	<string name="brush_edit_dialog_full">Nombre maximum de brosses enregistrées de 12.</string>
+	<string name="editor_pen_dialog_title" description="editor_pen_dialog_title">Couleur et épaisseur brosse</string>
+	<string name="newto_editor_func_popup_d_brush_stroke">Trait</string>
+   	<string name="newto_editor_func_popup_d_brush_alpha">Opacité</string>
+</resources>

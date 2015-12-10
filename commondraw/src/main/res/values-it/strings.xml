@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="brush_edit_dialog_library">Library</string>
+	<string name="brush_edit_dialog_back">Indietro</string>
+	<string name="brush_edit_dialog_pencil">Matita</string>
+	<string name="brush_edit_dialog_rollerpen">Penna a sfera</string>
+	<string name="brush_edit_dialog_pen">Penna</string>
+	<string name="brush_edit_dialog_marker">Pennarello</string>
+	<string name="brush_edit_dialog_brush">Pennello</string>
+	<string name="brush_edit_dialog_airbrush">Aerografo</string>
+	<string name="brush_edit_dialog_save">Già salvato.</string>
+	<string name="brush_edit_dialog_full">Numero massimo di pennelli salvato su 12</string>
+	<string name="editor_pen_dialog_title" description="editor_pen_dialog_title">Colore e spessore pennello</string>
+	<string name="newto_editor_func_popup_d_brush_stroke">Tratto</string>
+   	<string name="newto_editor_func_popup_d_brush_alpha">Opacità</string>
+</resources>

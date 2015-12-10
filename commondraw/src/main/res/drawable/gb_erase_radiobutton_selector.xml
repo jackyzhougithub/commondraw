@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- <item android:drawable="@color/gb_erase_radiobutton_checked_color" android:state_checked="true"/> -->
+    <item android:drawable="@android:color/black"
+          android:state_checked="true"/>
+    <item android:drawable="@android:color/transparent"
+          android:state_checked="false"/>
+
+</selector>

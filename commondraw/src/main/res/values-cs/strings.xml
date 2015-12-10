@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="brush_edit_dialog_library">Knihovna</string>
+	<string name="brush_edit_dialog_back">Zpět</string>
+	<string name="brush_edit_dialog_pencil">Tužka</string>
+	<string name="brush_edit_dialog_rollerpen">Kuličkové pero</string>
+	<string name="brush_edit_dialog_pen">Pero</string>
+	<string name="brush_edit_dialog_marker">Fixa</string>
+	<string name="brush_edit_dialog_brush">Štětec</string>
+	<string name="brush_edit_dialog_airbrush">Sprej</string>
+	<string name="brush_edit_dialog_save">Uložit</string>
+ 	<string name="newto_editor_func_popup_d_brush_stroke">Zdvih</string>
+   	<string name="newto_editor_func_popup_d_brush_alpha">Neprůhlednost</string>
+   	 <string name="editor_pen_dialog_title" description="editor_pen_dialog_title">Barva a tloušťka štětce</string>
+</resources>

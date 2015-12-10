@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="brush_edit_dialog_library">Library</string>
+	<string name="brush_edit_dialog_back">Back</string>
+	<string name="brush_edit_dialog_pencil">Pencil</string>
+	<string name="brush_edit_dialog_rollerpen">Roller pen</string>
+	<string name="brush_edit_dialog_pen">Pen</string>
+	<string name="brush_edit_dialog_marker">Marker</string>
+	<string name="brush_edit_dialog_brush">Brush</string>
+	<string name="brush_edit_dialog_airbrush">Air brush</string>
+	<string name="brush_edit_dialog_save">Save already</string>
+	<string name="brush_edit_dialog_full">Maximum number of saved brushes is 12</string>
+    <string name="editor_pen_dialog_title" description="editor_pen_dialog_title">Brush colour &amp; thickness</string>
+    <string name="newto_editor_func_popup_d_brush_stroke">Stroke</string>
+   	<string name="newto_editor_func_popup_d_brush_alpha">Opacity</string>
+</resources>

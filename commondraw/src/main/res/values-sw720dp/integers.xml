@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 判断当前屏幕尺寸 -->
+	<integer name="screen_size">720</integer>
+</resources>

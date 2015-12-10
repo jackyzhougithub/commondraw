@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="brush_edit_dialog_library">Bibliotek</string>
+	<string name="brush_edit_dialog_back">Tilbake</string>
+	<string name="brush_edit_dialog_pencil">Blyant</string>
+	<string name="brush_edit_dialog_rollerpen">Kulepenn</string>
+	<string name="brush_edit_dialog_pen">Penn</string>
+	<string name="brush_edit_dialog_marker">Markør</string>
+	<string name="brush_edit_dialog_brush">Pensel</string>
+	<string name="brush_edit_dialog_airbrush">Luftpensel</string>
+	<string name="brush_edit_dialog_save">Allerede lagret.</string>
+	<string name="brush_edit_dialog_full">Lagret maksimalt antall pensler til 12</string>
+	<string name="editor_pen_dialog_title" description="editor_pen_dialog_title">Penselfarge og -tykkelse</string>
+	<string name="newto_editor_func_popup_d_brush_stroke">Slag</string>
+   	<string name="newto_editor_func_popup_d_brush_alpha">Opasitet</string>
+</resources>

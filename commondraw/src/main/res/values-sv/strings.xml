@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="brush_edit_dialog_library">Bibliotek</string>
+	<string name="brush_edit_dialog_back">Tillbaka</string>
+	<string name="brush_edit_dialog_pencil">Penna</string>
+	<string name="brush_edit_dialog_rollerpen">Kulpenna</string>
+	<string name="brush_edit_dialog_pen">Penna</string>
+	<string name="brush_edit_dialog_marker">Märkpenna</string>
+	<string name="brush_edit_dialog_brush">Pensel</string>
+	<string name="brush_edit_dialog_airbrush">luftpensel</string>
+	<string name="brush_edit_dialog_save">Spara redan</string>
+	<string name="brush_edit_dialog_full">Sparat maximalt antal penslar till 12</string>
+	<string name="editor_pen_dialog_title" description="editor_pen_dialog_title">Penselfärg och tjocklek</string>
+	<string name="newto_editor_func_popup_d_brush_stroke">Stryk</string>
+    <string name="newto_editor_func_popup_d_brush_alpha" maxwidth="10">Ogenomskinlighet</string>
+</resources>

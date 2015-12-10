@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@color/gb_function_bar_bg">
+        <TextView
+            android:id="@+id/back_title" 
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical|left"
+            android:background="@null"
+            android:textSize="26sp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif"
+            android:drawableLeft="@drawable/ic_up"/>
+	        
+		<RelativeLayout
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1" >
+	        <ImageButton 
+	            android:id="@+id/edit_image"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_toLeftOf="@+id/save_image"
+	            android:background="@null"
+	            android:src="@drawable/ic_mode_edit"/>
+	        <ImageButton 
+	            android:id="@+id/save_image"
+	            android:layout_alignParentRight="true"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:layout_marginRight="20dp"
+	            android:background="@null"
+	            android:src="@drawable/ic_save"/>
+		</RelativeLayout>
+    </LinearLayout>
+	<ImageView 
+	    android:id="@+id/image_preview"
+	    android:layout_width="wrap_content"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:scaleType="center"
+	    android:layout_gravity="center"/>
+</LinearLayout>

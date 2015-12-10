@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Carrot -->
+	<dimen name="preview_image_width">660px</dimen>
+	<dimen name="preview_image_height">150px</dimen>
+	<dimen name="preview_content_width">562px</dimen>
+	<dimen name="preview_content_height">48px</dimen>
+	<dimen name="preview_content_x">51px</dimen>
+	<dimen name="preview_content_y">52px</dimen>
+	<!-- Carrot -->
+</resources>

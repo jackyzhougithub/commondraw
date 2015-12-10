@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="brush_edit_dialog_library">库</string>
+	<string name="brush_edit_dialog_back">返回</string>
+	<string name="brush_edit_dialog_pencil">铅笔</string>
+	<string name="brush_edit_dialog_rollerpen">圆珠笔</string>
+	<string name="brush_edit_dialog_pen">钢笔</string>
+	<string name="brush_edit_dialog_marker">记号笔</string>
+	<string name="brush_edit_dialog_brush">毛笔</string>
+	<string name="brush_edit_dialog_airbrush">喷枪</string>
+	<string name="brush_edit_dialog_save">已保存</string>
+	<string name="brush_edit_dialog_save_successful">保存成功</string>
+	<string name="brush_edit_dialog_full">保存的笔刷数量已达到最大值 12</string>
+	<string name="editor_pen_dialog_title" description="editor_pen_dialog_title">笔刷颜色和粗细</string>
+	<string name="newto_editor_func_popup_d_brush_stroke">笔触</string>
+   	<string name="newto_editor_func_popup_d_brush_alpha">透明度</string>
+</resources>

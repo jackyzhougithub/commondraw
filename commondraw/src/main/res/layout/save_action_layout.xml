@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white" >
+    <TextView 
+        android:id="@+id/save_to_gallery"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textSize="15sp"
+        android:text="@string/save_gallery"
+        android:textColor="@android:color/black"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+	<TextView 
+        android:id="@+id/save_to_omlet"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textSize="15sp"
+        android:text="@string/save_omlet"
+        android:textColor="@android:color/black"/>
+
+	<View
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@android:color/black" />
+
+	<Button 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/cancel_btn"
+	    android:padding="10dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textSize="15sp"
+        android:text="@android:string/cancel"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

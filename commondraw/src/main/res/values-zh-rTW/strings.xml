@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="brush_edit_dialog_library">預設</string>
+	<string name="brush_edit_dialog_back">返回</string>
+	<string name="brush_edit_dialog_pencil">鉛筆</string>
+	<string name="brush_edit_dialog_rollerpen">原子筆</string>
+	<string name="brush_edit_dialog_pen">鋼筆</string>
+	<string name="brush_edit_dialog_marker">馬克筆</string>
+	<string name="brush_edit_dialog_brush">毛筆</string>
+	<string name="brush_edit_dialog_airbrush">噴槍</string>
+	<string name="brush_edit_dialog_save">已存在</string>
+	<string name="brush_edit_dialog_save_successful">儲存成功</string>
+	<string name="brush_edit_dialog_full">已儲存最大數量12個</string>
+	<string name="editor_pen_dialog_title" description="editor_pen_dialog_title">筆刷顏色&amp;粗細</string>
+	<string name="newto_editor_func_popup_d_brush_stroke">筆觸</string>
+   	<string name="newto_editor_func_popup_d_brush_alpha">透明度</string>
+</resources>

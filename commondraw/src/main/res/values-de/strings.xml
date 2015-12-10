@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="brush_edit_dialog_library">Bibliothek</string>
+	<string name="brush_edit_dialog_back">Zurück</string>
+	<string name="brush_edit_dialog_pencil">Stift</string>
+	<string name="brush_edit_dialog_rollerpen">Tintenroller</string>
+	<string name="brush_edit_dialog_pen">Füller</string>
+	<string name="brush_edit_dialog_marker">Marker</string>
+	<string name="brush_edit_dialog_brush">Pinsel</string>
+	<string name="brush_edit_dialog_airbrush">Air-Brush</string>
+	<string name="brush_edit_dialog_save">Bereits gespeichert.</string>
+	<string name="brush_edit_dialog_full">Maximale Anzahl Pinsel von 12 gespeichert</string>
+	<string name="editor_pen_dialog_title" description="editor_pen_dialog_title">Pinselfarbe &amp;#38; -dicke</string>
+	<string name="newto_editor_func_popup_d_brush_stroke">Strich</string>
+   	<string name="newto_editor_func_popup_d_brush_alpha">Opazität</string>	
+</resources>

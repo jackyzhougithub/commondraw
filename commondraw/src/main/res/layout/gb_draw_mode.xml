@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="@dimen/gb_function_layout_marginleft" 
+    android:id="@+id/drawActionBarLayout">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioGroup
+            android:id="@+id/brushRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/brushRadioButton"
+                android:layout_width="@dimen/gb_function_view_width"
+                android:layout_height="@dimen/gb_function_view_width"
+                android:background="@drawable/gb_check_selector"
+                android:button="@null" />
+
+            <RadioButton
+                android:id="@+id/eraseRadioButton"
+                android:layout_width="@dimen/gb_function_view_width"
+                android:layout_height="@dimen/gb_function_view_width"
+                android:layout_marginLeft="@dimen/gb_function_view_marginleft"
+                android:background="@drawable/gb_check_selector"
+                android:button="@null" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="@dimen/gb_function_view_width"
+                android:layout_height="@dimen/gb_function_view_width"
+                android:background="@drawable/function_pen1" />
+
+            <View
+                android:layout_width="@dimen/gb_function_view_width"
+                android:layout_height="@dimen/gb_function_view_width"
+                android:layout_marginLeft="@dimen/gb_function_view_marginleft"
+                android:background="@drawable/function_eraser2" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/SRLayout"
+        android:layout_width="@dimen/gb_function_view_width"
+        android:layout_height="@dimen/gb_function_view_width"
+        android:layout_marginLeft="@dimen/gb_function_view_marginleft" >
+
+        <CheckBox
+            android:id="@+id/SRCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gb_check_selector"
+            android:button="@null" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/transform_off" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/addImageView"
+        android:layout_width="@dimen/gb_function_view_width"
+        android:layout_height="@dimen/gb_function_view_width"
+        android:layout_marginLeft="@dimen/gb_function_view_marginleft"
+        android:background="@drawable/gb_function_view_selector"
+        android:clickable="true" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/insert"
+            android:duplicateParentState="true" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/undoView"
+        android:layout_width="@dimen/gb_function_view_width"
+        android:layout_height="@dimen/gb_function_view_width"
+        android:layout_marginLeft="@dimen/gb_function_view_marginleft"
+        android:background="@drawable/gb_function_view_selector"
+        android:clickable="true" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gb_undo_selector"
+            android:duplicateParentState="true" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/redoView"
+        android:layout_width="@dimen/gb_function_view_width"
+        android:layout_height="@dimen/gb_function_view_width"
+        android:layout_marginLeft="@dimen/gb_function_view_marginleft"
+        android:background="@drawable/gb_function_view_selector"
+        android:clickable="true" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gb_redo_selector"
+            android:duplicateParentState="true" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/sendView"
+        android:layout_width="@dimen/gb_function_view_width"
+        android:layout_height="@dimen/gb_function_view_width"
+        android:layout_marginLeft="@dimen/gb_function_view_marginleft"
+        android:background="@drawable/gb_function_view_selector"
+        android:clickable="true" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_send"
+            android:duplicateParentState="true" />
+    </FrameLayout>
+
+</LinearLayout>

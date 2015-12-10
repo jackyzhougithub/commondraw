@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/gb_erasepopupwindow_width"
+    android:layout_height="@dimen/gb_erasepopupwindow_height"
+    android:background="@drawable/dropdown_eraser"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/eraseRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/gb_erasepopupwindow_erase_radionbutton_height"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/eraseRadioButton1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:background="@drawable/gb_erase_radiobutton_selector"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/eraseRadioButton2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:background="@drawable/gb_erase_radiobutton_selector"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/eraseRadioButton3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:background="@drawable/gb_erase_radiobutton_selector"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/eraseRadioButtonClear"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:background="@drawable/gb_erase_radiobutton_selector"
+            android:button="@null" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/gb_erasepopupwindow_erase_radionbutton_height"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:background="@drawable/eraser_point1" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:background="@drawable/eraser_point2" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:background="@drawable/eraser_point3" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:background="@drawable/eraser_clear" />
+    </LinearLayout>
+
+</FrameLayout>
